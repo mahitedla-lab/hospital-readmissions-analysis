@@ -1,0 +1,13 @@
+# Downloaded CMS data and local databases (re-create with run_pipeline.py)
+data/
+*.duckdb
+*.duckdb.wal
+
+# Generated outputs (re-create with run_pipeline.py)
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
